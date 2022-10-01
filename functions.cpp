@@ -19,17 +19,23 @@ std::string *addEntry(std::string *dynamicArray, int &size, std::string stringNe
 
 std::string* deleteEntry(std::string *dynamicArray, int &size, std::string entryToDelete)
 {
-    std::string *temp = new std::string[size-1];
-    int counter = 0;
+    int counter = 0, length;
+    length = size;
+    std::string *temp = new std::string[size];
     for (int i = 0; i < size; ++i)
     {
-        if(dynamicArray[i] != entryToDelete)
+        if(dynamicArray[i] == entryToDelete)
         {
-            temp[counter++] = dynamicArray[i];
+            length--;
+            continue;
+        }
+        else
+        {
+           temp[counter++] = dynamicArray[i];
         }
     }
+    size = length;
     delete []dynamicArray;
-    size--;
     return temp;
 }
 

@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/haibin/CLionProjects/dynamicArray_addDelete/cmake-build-debug",
-		"source" : "/Users/haibin/CLionProjects/dynamicArray_addDelete"
+		"build" : "/Users/haibin/CLionProjects/chap9/dynamicArray_addDelete/cmake-build-debug",
+		"source" : "/Users/haibin/CLionProjects/chap9/dynamicArray_addDelete"
 	},
 	"version" : 
 	{

@@ -11,10 +11,13 @@ int main() {
     names = addEntry(names, size, "swag");
     names = addEntry(names, size, "shlermy");
     names = addEntry(names, size, "NASA");
+    names = deleteEntry(names, size, "jerm");
+    names = deleteEntry(names, size, "jerm");
+    names = deleteEntry(names, size, "churm");
     names = deleteEntry(names, size, "slurm");
     names = deleteEntry(names, size, "wurm");
     names = deleteEntry(names, size, "wurm");
-    names = deleteEntry(names, size, "jerm");
+    names = deleteEntry(names, size, "purm");
     for (int i = 0; i <= size; i++)
     {
         std::cout << names[i];
